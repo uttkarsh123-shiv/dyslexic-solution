@@ -21,9 +21,9 @@ A Chrome extension designed to help users with dyslexia read and understand web 
 ## 📦 Tech Stack
 
 - ReactJS
-- Vite (or Webpack if used)
+- Vite WebPack
 - Chrome Extension APIs
-- JavaScript / HTML / CSS
+- JavaScript / TypeScript / TailwindCSS
 
 ## 🚀 Future Plans
 
@@ -38,3 +38,4 @@ MIT License
 ---
 
 **Made with care to help every mind read better.**
+
