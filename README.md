@@ -37,5 +37,5 @@ A Chrome extension designed to improve the web reading experience for users with
 4. Click **Load Unpacked** and select the project folder.
 5. The extension icon will appear in your toolbar.
 
-## 📁 Project Structure
+
 
