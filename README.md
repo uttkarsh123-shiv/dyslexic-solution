@@ -1,41 +1,41 @@
-# Dyslexic Solution - Chrome Extension 🧠🔤(Under Development)
+# Dyslexia Support Chrome Extension
 
-A Chrome extension designed to help users with dyslexia read and understand web content more easily.
+A Chrome extension designed to improve the web reading experience for users with dyslexia and reading difficulties. It provides tools to simplify complex web content and enhance text readability through customizable visual support.
 
 ## ✨ Features
 
-- 🧩 **Font Replacement**: Replaces web fonts with dyslexia-friendly fonts like *OpenDyslexic*.
-- 🎨 **High Contrast Mode**: Increases readability by enhancing contrast.
-- 🌙 **Dark Mode Support**: Reduces eye strain for low-light reading.
-- 📏 **Line & Word Spacing**: Adjusts spacing to make text easier to track.
-- 🔁 **Real-Time Updates**: Instantly apply changes on active pages.
+- ✅ **Change Website Fonts** – Switch any website's font to a dyslexia-friendly font (e.g., OpenDyslexic).
+- ✅ **Adjust Letter Spacing** – Increase spacing between letters to improve clarity.
+- ✅ **Change Font Size** – Make text larger and more readable.
+- ✅ **Simplify Difficult Text** – Replace complex words and expressions with simpler alternatives using AI (planned feature).
+- ✅ **Popup UI** – Easily control all features via a user-friendly popup menu.
 
-## 🛠️ Installation (Development Mode)
+## 📸 Demo Screenshots
 
-1. Clone this repo or download the ZIP.
-2. Run `npm install` and `npm run build` in the project root.
-3. Open Chrome and go to `chrome://extensions/`.
-4. Enable **Developer mode** (top right).
-5. Click **Load unpacked** and select the `/build` folder.
+| Original Webpage | After Applying Extension |
+|------------------|--------------------------|
+| ![Original](https://res.cloudinary.com/df134toxg/image/upload/v1754668838/Screenshot_2025-08-08_212851_jkeote.png) | ![Modified](https://res.cloudinary.com/df134toxg/image/upload/v1754668838/Screenshot_2025-08-08_212939_xy7c20.png) |
 
-## 📦 Tech Stack
+## 🧠 Future Additions
 
-- ReactJS
-- Vite WebPack
-- Chrome Extension APIs
-- JavaScript / TypeScript / TailwindCSS
+- 🧠 AI-based summarization and simplification (integrating LLMs).
+- 🔊 Text-to-speech reader.
+- 🌙 Dark mode toggle.
+- 🔧 User preferences memory (extension remembers last used settings).
 
-## 🚀 Future Plans
+## 🛠️ Tech Stack
 
-- 🗣️ Text-to-Speech integration
-- 📝 Custom user preferences
-- 🌍 Multi-language support
+- React.Js, CSS, TypeScript
+- Chrome Extensions API
+- TailwindCSS
 
-## 📄 License
+## 🚀 Installation
 
-MIT License
+1. Clone this repository.
+2. Open **Chrome** and go to `chrome://extensions/`
+3. Enable **Developer Mode**.
+4. Click **Load Unpacked** and select the project folder.
+5. The extension icon will appear in your toolbar.
 
----
-
-**Made with care to help every mind read better.**
+## 📁 Project Structure
 
