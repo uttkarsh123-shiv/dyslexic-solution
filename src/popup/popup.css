@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'OpenDyslexic';
-  src: url('../fonts/OpenDyslexic.otf') format('opentype');
+  src: url('../fonts/OpenDyslexic-Bold.otf') format('opentype');
 }
 body {
   font-family: 'OpenDyslexic', Arial, sans-serif;
@@ -11,11 +11,6 @@ body {
   width: 370px;
   box-sizing: border-box;
 }
-
-div {
-  border-radius: 8px;
-  padding: 15px;
-
 
 h2 {
   font-size: 18px;
@@ -36,4 +31,8 @@ ul {
 li {
   margin-bottom: 5px;
 }
+
+div {
+  border-radius: 8px;
+  padding: 15px;
 }

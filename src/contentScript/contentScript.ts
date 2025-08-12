@@ -3,7 +3,7 @@ const injectOpenDyslexicFont = () => {
   style.textContent = `
     @font-face {
       font-family: 'OpenDyslexic';
-      src: url('${chrome.runtime.getURL("fonts/OpenDyslexic-Bold.otf")}') format('opentype');
+      src: url('${chrome.runtime.getURL("../fonts/OpenDyslexic-Bold.otf")}') format('opentype');
       font-weight: normal;
       font-style: normal;
     }
@@ -21,7 +21,7 @@ const applyOpenDyslexic = () => {
 
 // Listen for message from popup
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.action === "change_text") {
+  if (message.action === "change_font") {
     applyOpenDyslexic();
   }
 });
