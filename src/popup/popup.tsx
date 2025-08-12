@@ -10,7 +10,13 @@ const App = () => {
       }
     });
   };
-
+const handleSimplifyWeb = () => {
+  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+    if (tabs[0].id) {
+      chrome.tabs.sendMessage(tabs[0].id, { action: "simplify_text" });
+    }
+  });
+};
   
 
   return (
@@ -23,17 +29,16 @@ const App = () => {
         </p>
         <p>
           🧠 Features:
-          <ul>
+        </p>
+  <ul>
             <li>Dyslexia-friendly font</li>
             <li>Line height adjustment</li>
             <li>Letter spacing control</li>
             <li>Text-to-speech toggle</li>
           </ul>
-        </p>
-
         <div className="btn-grp flex gap-10">
             <button    onClick={handleSimplifyClick} className="border p-2 text-[12px] rounded-full hover:bg-slate-500 hover:text-yellow-50 hover:transi">Change Text</button>
-            <button className="border p-2 text-[12px] rounded-full">Simplify Web</button>
+            <button onClick={handleSimplifyWeb} className="border p-2 text-[12px] rounded-full bg-slate-500 text-yellow-50">Simplify Web</button>
         </div>
     </div>
   );

@@ -15,13 +15,23 @@ const injectOpenDyslexicFont = () => {
   document.head.appendChild(style);
 };
 
-const applyOpenDyslexic = () => {
-  injectOpenDyslexicFont();
-};
-
-// Listen for message from popup
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === "change_font") {
-    applyOpenDyslexic();
+    injectOpenDyslexicFont();
+  }
+
+  if (message.action === "simplify_text") {
+    document.querySelectorAll("p").forEach(p => {
+      if (p.innerText.length > 50) {
+        chrome.runtime.sendMessage(
+          { action: "aiSimplify", text: p.innerText },
+          (response) => {
+            if (response?.simplified) {
+              p.innerText = response.simplified;
+            }
+          }
+        );
+      }
+    });
   }
 });
