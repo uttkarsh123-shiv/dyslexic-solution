@@ -29,13 +29,14 @@ A Chrome extension designed to improve the web reading experience for users with
 - Chrome Extensions API
 - TailwindCSS
 
-## 🚀 Installation
+## 🚀 Analysis
+-Flesch-Kincaid score 
+Complexity reduced by up to 50%
 
-1. Clone this repository.
-2. Open **Chrome** and go to `chrome://extensions/`
-3. Enable **Developer Mode**.
-4. Click **Load Unpacked** and select the project folder.
-5. The extension icon will appear in your toolbar.
+| Original Webpage | After Applying Extension |
+|------------------|--------------------------|
+| ![Original](https://res.cloudinary.com/df134toxg/image/upload/v1755058867/Flesch_Kincaid_Calculator-before_rephrase_ekhkst.png) | ![Modified](https://res.cloudinary.com/df134toxg/image/upload/v1755058867/Flesch_Kincaid_Calculator-After_AI_rephrase_ht8n2f.png) |
+
 
 
 
