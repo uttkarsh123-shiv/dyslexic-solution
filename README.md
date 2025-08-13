@@ -33,9 +33,10 @@ A Chrome extension designed to improve the web reading experience for users with
 -Flesch-Kincaid score 
 Complexity reduced by up to 50%
 
-| Original Webpage | After Applying Extension |
+| Original Paragraph taken from Web | After Applying Extension |
 |------------------|--------------------------|
 | ![Original](https://res.cloudinary.com/df134toxg/image/upload/v1755058867/Flesch_Kincaid_Calculator-before_rephrase_ekhkst.png) | ![Modified](https://res.cloudinary.com/df134toxg/image/upload/v1755058867/Flesch_Kincaid_Calculator-After_AI_rephrase_ht8n2f.png) |
+
 
 
 
