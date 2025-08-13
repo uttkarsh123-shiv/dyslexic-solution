@@ -17,11 +17,10 @@ A Chrome extension designed to improve the web reading experience for users with
 | ![Original](https://res.cloudinary.com/df134toxg/image/upload/v1754668838/Screenshot_2025-08-08_212851_jkeote.png) | ![Modified](https://res.cloudinary.com/df134toxg/image/upload/v1754668838/Screenshot_2025-08-08_212939_xy7c20.png) |
 
 ## 🧠 Future Additions
-
+- 🅰️ Font change from default Font to OpenDyslexic for more readability.
 - 🧠 AI-based summarization and simplification (integrating LLMs).
-- 🔊 Text-to-speech reader.
-- 🌙 Dark mode toggle.
-- 🔧 User preferences memory (extension remembers last used settings).
+- 🔧Interactive tooltips displaying word meanings with definitions
+- 🔊 Multi-language text-to-speech for selected paragraphs (in development), with planned support for 10+ languages.
 
 ## 🛠️ Tech Stack
 
@@ -36,6 +35,7 @@ Complexity reduced by up to 50%
 | Original Paragraph taken from Web | After Applying Extension |
 |------------------|--------------------------|
 | ![Original](https://res.cloudinary.com/df134toxg/image/upload/v1755058867/Flesch_Kincaid_Calculator-before_rephrase_ekhkst.png) | ![Modified](https://res.cloudinary.com/df134toxg/image/upload/v1755058867/Flesch_Kincaid_Calculator-After_AI_rephrase_ht8n2f.png) |
+
 
 
 
